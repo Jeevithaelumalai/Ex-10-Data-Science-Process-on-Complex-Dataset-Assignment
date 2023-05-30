@@ -112,14 +112,41 @@ sns.barplot(x='gender',y='reading score',data=df)
 sns.boxplot(x="math score",data=df)
 ```
 # OUTPUT:
+## Dataset
 ![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/9666828b-d00c-4878-832e-b0bbfc36158b)
+# data.info():
 ![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/6d4a1784-5b65-42f5-bb9c-22a73d3064bd)
+# data.isnull().sum()
 ![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/25540625-810d-45bb-8e4f-b1bf6b4789d7)
+# After removing null values:
 ![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/d0367309-985d-4527-bfd3-27241b7e03bc)
+# data.describe()
 ![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/b39192cc-5fc8-45a8-813a-f8be5dea13e7)
+# data.head()
 ![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/52aba743-619f-4679-89c9-67690cdb4ab9)
+# New data after removing outliers
 ![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/e819a14a-09ec-4e17-b6ab-831f54b98847)
+# Outliers
 ![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/02cb2e20-4e33-4adb-b980-4dc646b4a57f)
+# df.shape()
 ![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/c51c7008-bb43-4840-94f3-224193097204)
+# Ordinal Encoding
 ![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/a4602c56-0ee0-4957-915b-68e35ded3a4e)
-![Uploading image.png…]()
+# Label Encoding
+![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/178bd18a-e833-4f8c-8076-c789ae2d8de0)
+# OneHot Encoding
+![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/57534bf6-1ccb-472f-b508-1e1bf7b8f810)
+# Binary Encoding
+![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/030798d9-55ce-49c9-aa0c-3210738734d2)
+# Heatmap
+![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/751a9569-a403-4555-8639-e0c295542840)
+# Scatterplot
+![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/f56ac906-fcd6-48a4-a865-a79838e64e3f)
+# Barplot
+![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/cc8be746-740b-471d-9346-3984777eeb6a)
+
+# Boxplot
+![image](https://github.com/Jeevithaelumalai/Ex-10-Data-Science-Process-on-Complex-Dataset-Assignment/assets/118708245/dd3d3e5d-7b96-4195-9109-08d7e453b306)
+
+# RESULT:
+Hence, Data Science Process is performed on a complex dataset and saved the data to a file.
